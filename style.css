@@ -1,0 +1,20 @@
+H1 {
+color: # 000080;
+font-size: 200%
+font-femily: Arial, Verdana, sans-serif;
+text-align: ctnter;
+}
+P {
+padding-left: 20px;
+}
+@keyframes blinkColors {
+0% { color: red; }
+25% { color: blue; }
+50% { color: green; }
+75% { color: orange; }
+100% {color: red; )
+}
+.blinking-title {
+font-size: 36px;
+font-weight: bold;
+animation: blinkColors 1s infinite;
